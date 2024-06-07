@@ -1,4 +1,19 @@
 {
   "name": "nativeThemeInterface",
-  "displayName": "nativeThemeInterface"
+  "displayName": "nativeThemeInterface",
+  "plugins": ["expo-font"],
+  "expo": {
+    "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/Lato-Regular.otf",
+            "./assets/fonts/Poppins-Regular.otf",
+            "./assets/fonts/Roboto-Regular.otf"
+          ]
+        }
+      ]
+    ]
+  }
 }
